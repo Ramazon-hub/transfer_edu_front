@@ -40,7 +40,7 @@ import './transfer.css'
                 universityTo:univerTo.current.value,
                 facultyTo:facTo.current.value
             };
-            console.log(formData);
+            
             const DATA = await fetch(`http://localhost:8000/newapplication`,{
                 method:"POST",
                 headers: {

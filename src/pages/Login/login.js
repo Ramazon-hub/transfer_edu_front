@@ -26,7 +26,6 @@ function Login(){
     })
     
     const user = await DATA.json();
-    console.log(user);
     if (user.token) {
         setToken(user.token);
         history.push("/");
