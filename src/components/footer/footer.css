@@ -1,0 +1,16 @@
+#footer{
+    width: 1170px;
+    position: absolute;
+    bottom: 0;
+}
+#footer-content{
+    display: flex;
+    justify-content: space-between;
+  padding: 20px 0;
+}
+#footer-right{
+
+}
+#footer-icon{
+    margin-right: 10px;
+}

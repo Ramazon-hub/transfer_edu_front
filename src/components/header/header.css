@@ -1,0 +1,49 @@
+#header{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#logo-link{
+    text-decoration: none;
+    color: #111;
+}
+#logo-section{
+display: flex;
+align-items: center;
+}
+#logo-text{
+
+margin-left: 10px;
+font-size: 22px;
+width: 400px;
+}
+#header-list{
+list-style: none;
+display: flex;
+}
+#header-list-item{
+margin-right: 20px;
+}
+#header-link{
+    text-decoration: none;
+    color: black;
+    transition: .4s;
+}
+#header-link:hover{
+    color:rgb(47, 161, 236) ;
+}
+#kirish{
+    color: black;
+
+text-decoration: none;
+border-radius: 20px;
+padding: 10px 20px;
+transition: 0.4s;
+}
+#kirish:hover{
+color: #fff;
+
+    background-color: rgb(47, 161, 236);
+    
+}

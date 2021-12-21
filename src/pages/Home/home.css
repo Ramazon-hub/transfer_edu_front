@@ -1,0 +1,52 @@
+#main{
+display: flex;
+align-items: center;
+}
+#main-left{
+/* padding-top: 50px; */
+}
+#main-right{
+
+}
+#hero-img{
+    animation-name: hero;
+    animation-duration: 2s;
+    animation-timing-function:ease-in-out  ;
+    animation-timing-function:infinite ;
+    animation-timing-function:alternate-reverse both ;
+
+}
+@keyframes hero{
+   0% {
+        transform: translateY(10px) ;
+    }
+    100% {
+        transform: translateY(-10px) ; 
+    }
+ 
+}
+#main-title{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+#main-tizim{
+font-size: 28px;
+opacity: 0.7;
+display: inline-block;
+margin-right: 10px;
+}
+#main-yoriqnoma{
+    font-size: 28px;
+    text-decoration: none;
+    color: rgb(84, 165, 231);
+}
+#main-kirish{
+    font-size: 18px;
+    display: inline-block;
+    text-decoration: none;
+    color:rgb(84, 165, 231) ;
+    border-radius:25px;
+    border: 2px solid #54a5e7;
+    padding: 10px 30px;
+    margin-top: 40px;
+}
